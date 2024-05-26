@@ -7,3 +7,13 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+  kafka:
+    template:
+      default-topic: creat-post-topic
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonSerializer

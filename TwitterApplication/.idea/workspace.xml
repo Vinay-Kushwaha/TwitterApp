@@ -4,30 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3569e94-c9c1-48a9-9468-3414620f1598" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/controller/TweetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/dto/request/TweetDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/dto/request/UpdateTweetDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/dto/request/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/dto/response/TweetResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/dto/response/UserResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/model/Tweet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/repositories/TweetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/Implementations/TweetServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/Implementations/UserServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/TweetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/TwitterApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/TwitterApplication.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/TwitterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/TwitterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/model/repositories/UserRepository.java" beforeDir="false" />
+    <list default="true" id="d3569e94-c9c1-48a9-9468-3414620f1598" name="Changes" comment="Globally exception handler class updated">
+      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/test/java/com/twitterApplication/TweetControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/test/java/com/twitterApplication/TweetServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/test/java/com/twitterApplication/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/test/java/com/twitterApplication/UserServiceImpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/TwitterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/TwitterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/minitwitter/exceptions/GlobalExceptionHandler.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/model/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/service/Implementations/TweetServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/service/Implementations/TweetServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/service/Implementations/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/service/Implementations/UserServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/service/TweetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/service/TweetService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +59,8 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/vinay/TwitterApp/TwitterApplication&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="TwitterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.twitterApplication.TwitterApplication" />
+  <component name="RunManager" selected="JUnit.UserControllerTest">
+    <configuration name="TweetServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TwitterApplication" />
       <extension name="coverage">
         <pattern>
@@ -80,13 +68,81 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.twitterApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.twitterApplication.TweetServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TweetServiceImplTest.testGetHomeTimeLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TwitterApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twitterApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twitterApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.twitterApplication.TweetServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetHomeTimeLine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TwitterApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twitterApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twitterApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.twitterApplication.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TwitterApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twitterApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twitterApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.twitterApplication.UserControllerTest" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.twitterApplication in TwitterApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TwitterApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twitterApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twitterApplication" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwitterApplication" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.UserControllerTest.testCreateUser" />
+        <item itemvalue="JUnit.com.twitterApplication in TwitterApplication" />
+        <item itemvalue="JUnit.TweetServiceImplTest" />
+        <item itemvalue="JUnit.TweetServiceImplTest.testGetHomeTimeLine" />
       </list>
     </recent_temporary>
   </component>
@@ -99,6 +155,28 @@
       <option name="presentableId" value="Default" />
       <updated>1716736969318</updated>
     </task>
+    <task id="LOCAL-00001" summary="Basic functionality completed">
+      <created>1716755125999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716755125999</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Left out files added">
+      <created>1716755317370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716755317370</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Globally exception handler class updated">
+      <created>1716755431992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716755431992</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +189,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic functionality completed" />
+    <MESSAGE value="Left out files added" />
+    <MESSAGE value="Globally exception handler class updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Globally exception handler class updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -147,5 +231,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TwitterApplication$com_twitterApplication_in_TwitterApplication.ic" NAME="com.twitterApplication in TwitterApplication Coverage Results" MODIFIED="1716759393933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.twitterApplication.*</FILTER>
+    </SUITE>
   </component>
 </project>
