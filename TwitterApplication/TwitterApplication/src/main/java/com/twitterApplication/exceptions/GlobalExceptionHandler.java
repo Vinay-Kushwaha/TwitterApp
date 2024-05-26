@@ -1,4 +1,4 @@
-package com.minitwitter.exceptions;
+package com.twitterApplication.exceptions;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -15,8 +15,8 @@ public class GlobalExceptionHandler {
         log.error("An error occurred while performing this operation : {}", e.getMessage());
         return new ResponseEntity<>("An error occurred", HttpStatus.INTERNAL_SERVER_ERROR);
     }
-    @ExceptionHandler(ResourceNotFoundException.class)
-    public ResponseEntity<?> resourceNotFoundExceptionHandler(ResourceNotFoundException ex){
+    @ExceptionHandler(com.minitwitter.exceptions.ResourceNotFoundException.class)
+    public ResponseEntity<?> resourceNotFoundExceptionHandler(com.minitwitter.exceptions.ResourceNotFoundException ex){
         return new ResponseEntity<>(ex.getFieldValue(),HttpStatus.NOT_FOUND);
     }
 
