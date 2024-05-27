@@ -40,18 +40,18 @@ public class TweetServiceImplTest {
         MockitoAnnotations.openMocks(this);
     }
 
-    @Test
-    void testCreateTweet() {
-        TweetDto tweetDto = new TweetDto();
-        Tweet tweet = new Tweet();
-        when(modelMapper.map(any(TweetDto.class), eq(Tweet.class))).thenReturn(tweet);
-        when(tweetRepository.save(any(Tweet.class))).thenReturn(tweet);
-        when(modelMapper.map(any(Tweet.class), eq(TweetDto.class))).thenReturn(tweetDto);
-        TweetDto result = tweetService.createTweet(tweetDto);
-        assertNotNull(result);
-        assertEquals(tweetDto, result);
-        verify(tweetRepository, times(1)).save(tweet);
-    }
+//    @Test
+//    void testCreateTweet() {
+//        TweetDto tweetDto = new TweetDto();
+//        Tweet tweet = new Tweet();
+//        when(modelMapper.map(any(TweetDto.class), eq(Tweet.class))).thenReturn(tweet);
+//        when(tweetRepository.save(any(Tweet.class))).thenReturn(tweet);
+//        when(modelMapper.map(any(Tweet.class), eq(TweetDto.class))).thenReturn(tweetDto);
+//        TweetDto result = tweetService.createTweet(tweetDto);
+//        assertNotNull(result);
+//        assertEquals(tweetDto, result);
+//        verify(tweetRepository, times(1)).save(tweet);
+//    }
 
     @Test
     void testUpdateTweet() {

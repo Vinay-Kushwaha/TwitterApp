@@ -15,9 +15,13 @@ public class GlobalExceptionHandler {
         log.error("An error occurred while performing this operation : {}", e.getMessage());
         return new ResponseEntity<>("An error occurred", HttpStatus.INTERNAL_SERVER_ERROR);
     }
-    @ExceptionHandler(com.minitwitter.exceptions.ResourceNotFoundException.class)
-    public ResponseEntity<?> resourceNotFoundExceptionHandler(com.minitwitter.exceptions.ResourceNotFoundException ex){
+    @ExceptionHandler(ResourceNotFoundException.class)
+    public ResponseEntity<?> resourceNotFoundExceptionHandler(ResourceNotFoundException ex){
         return new ResponseEntity<>(ex.getFieldValue(),HttpStatus.NOT_FOUND);
+    }
+    @ExceptionHandler(UserNotFoundException.class)
+    public ResponseEntity<String> handleUserNotFoundException(UserNotFoundException ex) {
+        return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
     }
 
 }

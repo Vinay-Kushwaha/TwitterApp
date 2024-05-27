@@ -41,6 +41,4 @@ public class UserController {
     public ResponseEntity<List<TweetDto>> getUserFeed(@PathVariable String userName) {
         return new ResponseEntity<>(tweetService.getHomeTimeLine(userName), HttpStatus.OK);
     }
-
-
 }

@@ -22,7 +22,7 @@ public class TweetController {
     TweetProducerService tweetProducerService;
 
     @PostMapping("/create")
-    public ResponseEntity<TweetDto> createPost(@RequestBody TweetDto tweetDto) {
+    public ResponseEntity<TweetResponseDto> createPost(@RequestBody TweetDto tweetDto) {
         return new ResponseEntity<>(tweetService.createTweet(tweetDto), HttpStatus.CREATED);
     }
 

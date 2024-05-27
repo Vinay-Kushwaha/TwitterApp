@@ -4,96 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3569e94-c9c1-48a9-9468-3414620f1598" name="Changes" comment="Test Cases updated">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_eclipsesource_minimal_json_minimal_json_0_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_csv_2_17_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_13_2_17_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_3_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_5_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_1_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_re2j_re2j_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_13_3_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_common_utils_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_kafka_avro_serializer_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_kafka_schema_registry_client_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_kafka_schema_serializer_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_logredactor_1_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_logredactor_metrics_1_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_4_1_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_110_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_110_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_110_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_110_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_110_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_110_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_110_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_110_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_110_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_argparse4j_argparse4j_0_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_13_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_13_test_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_test_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_group_coordinator_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_metadata_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_raft_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_server_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_server_common_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_server_common_test_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_storage_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_storage_api_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_test_utils_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_tools_api_3_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_8_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bitbucket_b_c_jose4j_0_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_pcollections_pcollections_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rocksdb_rocksdbjni_7_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_collection_compat_2_13_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_13_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_13_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_13_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_test_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_2_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_6_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/TweetConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/TweetProducerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/resources/avro/Tweet.avsc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="d3569e94-c9c1-48a9-9468-3414620f1598" name="Changes" comment="Kafka changes updated">
+      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/exceptions/InvalidUserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/exceptions/TweetCreationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/exceptions/TweetNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/exceptions/UserCreationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/exceptions/UserNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/TwitterApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/TwitterApplication.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/controller/TweetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/controller/TweetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/dto/request/TweetDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/dto/request/TweetDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/repositories/TweetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/repositories/TweetRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/dto/request/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/dto/request/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/Implementations/TweetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/Implementations/TweetServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/Implementations/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/Implementations/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/TweetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/TweetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/test/java/com/twitterApplication/TweetControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/test/java/com/twitterApplication/TweetControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/src/test/java/com/twitterApplication/TweetServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/src/test/java/com/twitterApplication/TweetServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/minitwitter/exceptions/ResourceNotFoundException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/controller/TweetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/controller/TweetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/dto/request/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/dto/request/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/exceptions/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/exceptions/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/service/Implementations/TweetServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/service/Implementations/TweetServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/service/TweetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterApplication/target/classes/com/twitterApplication/service/TweetService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716759727339</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Kafka changes updated">
+      <created>1716789309598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716789309598</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,7 +216,8 @@
     <MESSAGE value="Left out files added" />
     <MESSAGE value="Globally exception handler class updated" />
     <MESSAGE value="Test Cases updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Cases updated" />
+    <MESSAGE value="Kafka changes updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kafka changes updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -289,7 +229,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/Implementations/UserServiceImp.java</url>
-          <line>39</line>
+          <line>76</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -298,19 +238,9 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/Implementations/TweetServiceImpl.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/controller/UserController.java</url>
           <line>41</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/Implementations/TweetServiceImpl.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/TwitterApplication/src/main/java/com/twitterApplication/service/TweetProducerService.java</url>

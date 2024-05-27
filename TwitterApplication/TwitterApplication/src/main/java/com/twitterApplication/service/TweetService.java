@@ -7,7 +7,7 @@ import com.twitterApplication.dto.response.TweetResponseDto;
 import java.util.List;
 
 public interface TweetService {
-    TweetDto createTweet(TweetDto tweetDto);
+    TweetResponseDto createTweet(TweetDto tweetDto);
 
     TweetDto updateTweet(UpdateTweetDto tweetDto);
 
