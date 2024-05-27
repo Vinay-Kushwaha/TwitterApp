@@ -10,5 +10,4 @@ import lombok.Setter;
 public class TweetDto {
     private Long userId;
     private String content;
-//    private String timestamp;
 }

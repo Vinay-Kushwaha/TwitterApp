@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "TweetKafkaDTO",
+  "namespace": "com.twitterApplication.dto",
+  "fields": [
+    {
+      "name": "userId",
+      "type": "long"
+    },
+    {
+      "name": "content",
+      "type": "string"
+    }
+  ]
+}
+
